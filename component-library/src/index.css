@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+:root {
+  --primary-color: #4a90e2; /* Blå */
+  --secondary-color: #50e3c2; /* Turkos */
+  --danger-color: #e94e77; /* Röd */
+  --background-color: #f8fafc; /* Ljus bakgrund */
+  --text-color: #333; /* Mörk text */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
